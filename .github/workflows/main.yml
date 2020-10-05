@@ -10,7 +10,7 @@ jobs:
       - name: Publish to surge
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: 'technikhil-static-assets.surge.sh'
+          domain: 'static-assets-technikhil314.surge.sh'
           project: '.'
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.surge_token }}
